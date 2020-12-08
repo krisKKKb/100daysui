@@ -16,7 +16,7 @@
           />
         </div>
         <div class="signup">
-          <button>Sign up</button>
+          <button class="signupbtn">Sign up</button>
         </div>
       </div>
     </div>
@@ -48,17 +48,27 @@ export default {
 }
 .pw {
   display: flex;
+  margin-left: 7.5rem;
   flex-direction: column;
   justify-content: center;
   padding-top: 1rem;
+  width: 10rem;
 }
 .usern {
   display: flex;
+  margin-left: 7.5rem;
   flex-direction: column;
   padding-top: 1rem;
   justify-content: center;
+  width: 10rem;
 }
 .signup {
-  padding: 1rem;
+  padding: 1.5rem;
+}
+.signupbtn {
+  background-color: lightgreen;
+  width: 250px;
+  height: 50px;
+  font-size: 1rem;
 }
 </style>
